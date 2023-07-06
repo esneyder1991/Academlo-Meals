@@ -34,10 +34,9 @@ exports.updateReview = catchAsync(async (req, res, next) => {
 exports.deleteReview = catchAsync(async (req, res, next) => {
   const { review } = req;
 
-  // const resp = await review.update({ status: 'inactive' });
+  const resp = await review.update({ status: 'inactive' });
   return res.status(200).json({
     status: 'success',
     message: 'The review has been delected',
-    resp,
   });
 });

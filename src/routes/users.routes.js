@@ -7,8 +7,15 @@ const userController = require('../controllers/users.controller');
 const validationsMiddleware = require('./../middlewares/validations.middleware');
 const userMiddleware = require('./../middlewares/users.middleware');
 const authMiddleware = require('./../middlewares/auth.middleware');
+const orderMiddleware = require('./../middlewares/orders.middleware');
 
 const router = express.Router();
+
+router.route('/orders').get(userController.findAllOrders);
+
+router
+  .route('/orders/:id')
+  .get(orderMiddleware.existOrder, userController.findOneOrder);
 
 router.post(
   '/signup',
@@ -35,5 +42,6 @@ router
     authMiddleware.protectAccountOwner,
     userController.deleteUser
   );
+// EJEMPLO DE RUTA SIMPLE: router.post('/signup', userController.signup);
 
 module.exports = router;

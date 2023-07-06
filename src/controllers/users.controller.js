@@ -3,6 +3,7 @@ const catchAsync = require('../utils/catchAsync');
 const bcrypt = require('bcryptjs');
 const generateJWT = require('./../utils/jwt');
 const AppError = require('../utils/appError');
+const Order = require('../models/order.model');
 
 exports.signup = catchAsync(async (req, res, next) => {
   const { name, email, password, role } = req.body;
@@ -145,5 +146,28 @@ exports.deleteUser = catchAsync(async (req, res, next) => {
   return res.status(200).json({
     status: 'success',
     message: 'the user has been deleted!',
+  });
+});
+
+exports.findAllOrders = catchAsync(async (req, res, next) => {
+  const orders = await Order.findAll({
+    where: {
+      status: 'active',
+    },
+  });
+  return res.status(200).json({
+    status: 'success',
+    results: orders.length,
+    orders,
+  });
+});
+
+exports.findOneOrder = catchAsync(async (req, res, next) => {
+  const { order } = req;
+
+  return res.status(200).json({
+    status: 'success',
+    message: 'Order found',
+    order,
   });
 });

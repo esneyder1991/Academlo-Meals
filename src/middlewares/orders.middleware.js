@@ -8,7 +8,7 @@ exports.existOrder = catchAsync(async (req, res, next) => {
   const order = await Order.findOne({
     where: {
       status: 'active',
-      id: id,
+      id,
     },
   });
 
@@ -17,4 +17,16 @@ exports.existOrder = catchAsync(async (req, res, next) => {
   }
   req.order = order;
   next();
+});
+
+exports.ValidStatus = catchAsync(async (req, res, next) => {
+  const { order } = req;
+  if (order.status !== 'active') {
+    return next(
+      new AppError(
+        `The order with status: ${order.status} not allowed to perform this action`,
+        404
+      )
+    );
+  }
 });
