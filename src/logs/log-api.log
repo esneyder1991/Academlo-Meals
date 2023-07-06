@@ -1,0 +1,104 @@
+[2023-07-02T21:13:27.632Z] info secretOrPrivateKey must have a value undefined:undefined
+[2023-07-02T21:13:33.233Z] info llave duplicada viola restricción de unicidad «users_email_key» undefined:undefined
+[2023-07-02T21:14:21.535Z] info secretOrPrivateKey must have a value undefined:undefined
+[2023-07-02T21:19:04.920Z] info llave duplicada viola restricción de unicidad «users_email_key» undefined:undefined
+[2023-07-02T21:19:16.946Z] info secretOrPrivateKey must have a value undefined:undefined
+[2023-07-02T21:40:56.614Z] info secretOrPrivateKey must have a value undefined:undefined
+[2023-07-02T22:58:00.206Z] info llave duplicada viola restricción de unicidad «users_email_key» undefined:undefined
+[2023-07-02T23:29:58.391Z] info User with email: ider@hotmail.com not found undefined:undefined
+[2023-07-02T23:30:42.567Z] info User with email: ider@hotmail.com not found undefined:undefined
+[2023-07-02T23:54:32.677Z] info can't find /api/v1/restaurants on this server! 😡 undefined:undefined
+[2023-07-02T23:55:02.243Z] info can't find /api/v1/restaurants on this server! 😡 undefined:undefined
+[2023-07-03T02:38:03.894Z] info user is not defined undefined:undefined
+[2023-07-03T02:47:11.047Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-07-03T02:47:23.689Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T02:57:01.440Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T02:57:04.709Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T02:57:12.885Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T02:58:16.074Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T03:05:25.074Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T03:10:06.213Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T03:13:17.473Z] info la sintaxis de entrada no es válida para el enum enum_users_status: «available» undefined:undefined
+[2023-07-03T03:15:43.641Z] info The owner of this token it not longer available undefined:undefined
+[2023-07-03T03:16:34.571Z] info llave duplicada viola restricción de unicidad «users_email_key» undefined:undefined
+[2023-07-03T03:17:30.503Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:17:59.285Z] info can't find /api/v1/users on this server! 😡 undefined:undefined
+[2023-07-03T03:18:10.083Z] info can't find /api/v1/users/ on this server! 😡 undefined:undefined
+[2023-07-03T03:19:45.342Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:21:05.357Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:21:56.940Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:22:06.724Z] info can't find /api/v1/users on this server! 😡 undefined:undefined
+[2023-07-03T03:37:51.173Z] info can't find /api/v1/users on this server! 😡 undefined:undefined
+[2023-07-03T03:38:00.453Z] info can't find /api/v1/users/ on this server! 😡 undefined:undefined
+[2023-07-03T03:38:10.083Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:39:37.960Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:40:56.915Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:41:17.459Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T03:45:39.513Z] info can't find /api/v1/users on this server! 😡 undefined:undefined
+[2023-07-03T18:14:32.918Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T18:17:50.043Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T18:21:15.110Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-07-03T18:21:27.935Z] info Cannot read properties of undefined (reading 'id') undefined:undefined
+[2023-07-03T18:24:35.635Z] info You do not own this account undefined:undefined
+[2023-07-03T18:38:24.243Z] info can't find /api/v1/restaurants/1 on this server! 😡 undefined:undefined
+[2023-07-03T18:41:38.901Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-03T18:50:51.622Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-03T18:51:26.213Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-03T18:52:08.045Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-03T21:20:14.029Z] info Unexpected token } in JSON at position 81 undefined:undefined
+[2023-07-03T21:20:36.578Z] info la sintaxis de entrada no es válida para tipo integer: «reviews» undefined:undefined
+[2023-07-03T22:11:56.401Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-07-03T22:13:12.050Z] info Review is not defined undefined:undefined
+[2023-07-03T22:27:50.080Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-07-03T22:28:02.347Z] info User is not defined undefined:undefined
+[2023-07-03T22:30:55.412Z] info User is not defined undefined:undefined
+[2023-07-03T22:35:21.263Z] info You do not own this account undefined:undefined
+[2023-07-03T22:38:12.357Z] info AppError is not defined undefined:undefined
+[2023-07-03T22:38:55.126Z] info Restaurant with id: 5 not found undefined:undefined
+[2023-07-03T22:40:25.912Z] info You do not own this account undefined:undefined
+[2023-07-03T22:42:47.405Z] info Restaurant with id: 10 not found undefined:undefined
+[2023-07-05T12:13:10.987Z] info User with email: meliodas@hotmail.com not found undefined:undefined
+[2023-07-05T12:13:21.337Z] info Unexpected end of JSON input undefined:undefined
+[2023-07-05T12:16:37.530Z] info You do not own this account undefined:undefined
+[2023-07-05T12:18:05.907Z] info You do not own this account undefined:undefined
+[2023-07-05T12:18:56.929Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-07-05T12:19:22.422Z] info The owner of this token it not longer available undefined:undefined
+[2023-07-05T12:20:27.047Z] info You do not have permission to perform this action! undefined:undefined
+[2023-07-05T12:20:49.412Z] info You do not have permission to perform this action! undefined:undefined
+[2023-07-05T12:24:00.335Z] info You do not have permission to perform this action! undefined:undefined
+[2023-07-05T12:24:13.170Z] info Restaurant with id: 1 not found undefined:undefined
+[2023-07-05T12:26:09.295Z] info You do not have permission to perform this action! undefined:undefined
+[2023-07-05T12:41:12.642Z] info Restaurant with id: 2 not found undefined:undefined
+[2023-07-05T12:42:13.073Z] info You are not logged in!, Please log in to get access undefined:undefined
+[2023-07-05T13:10:52.579Z] info can't find /api/v1/meals/1 on this server! 😡 undefined:undefined
+[2023-07-05T13:12:37.815Z] info notNull Violation: meals.restaurantId cannot be null undefined:undefined
+[2023-07-05T13:23:31.343Z] info notNull Violation: meals.restaurantId cannot be null undefined:undefined
+[2023-07-05T13:28:34.543Z] info notNull Violation: meals.restaurantId cannot be null undefined:undefined
+[2023-07-05T13:29:09.016Z] info notNull Violation: meals.restaurantId cannot be null undefined:undefined
+[2023-07-05T14:13:21.548Z] info restaurant is not defined undefined:undefined
+[2023-07-05T14:49:15.723Z] info restaurant is not defined undefined:undefined
+[2023-07-05T14:54:03.673Z] info Cannot destructure property 'name' of 'restaurant' as it is undefined. undefined:undefined
+[2023-07-05T14:55:12.385Z] info Cannot destructure property 'name' of 'restaurant' as it is undefined. undefined:undefined
+[2023-07-05T14:55:17.684Z] info Cannot destructure property 'name' of 'restaurant' as it is undefined. undefined:undefined
+[2023-07-05T14:56:38.513Z] info Cannot destructure property 'name' of 'req.restaurant' as it is undefined. undefined:undefined
+[2023-07-05T14:56:59.290Z] info Cannot destructure property 'name' of 'req.restaurant' as it is undefined. undefined:undefined
+[2023-07-05T20:00:13.442Z] info can't find //api/v1/orders on this server! 😡 undefined:undefined
+[2023-07-05T20:01:29.819Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-05T20:11:22.052Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-05T20:11:39.618Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-05T20:22:34.801Z] info no existe la columna meals.mealId undefined:undefined
+[2023-07-05T20:36:04.905Z] info Meal with id: 1 not found undefined:undefined
+[2023-07-05T21:31:35.517Z] info Restaurant is not defined undefined:undefined
+[2023-07-05T21:32:05.691Z] info notNull Violation: orders.userId cannot be null undefined:undefined
+[2023-07-05T21:39:06.827Z] info Cannot read properties of undefined (reading 'dataValues') undefined:undefined
+[2023-07-05T21:41:26.403Z] info Cannot read properties of undefined (reading 'dataValues') undefined:undefined
+[2023-07-05T21:54:00.928Z] info Cannot read properties of undefined (reading 'dataValues') undefined:undefined
+[2023-07-05T21:59:47.303Z] info Cannot read properties of undefined (reading 'dataValues') undefined:undefined
+[2023-07-05T22:01:05.605Z] info Cannot read properties of undefined (reading 'dataValues') undefined:undefined
+[2023-07-05T22:01:15.333Z] info Cannot read properties of undefined (reading 'dataValues') undefined:undefined
+[2023-07-05T22:28:17.561Z] info WHERE parameter "id" has invalid "undefined" value undefined:undefined
+[2023-07-05T22:50:10.278Z] info Restaurant is not defined undefined:undefined
+[2023-07-05T22:53:01.298Z] info Include unexpected. Element has to be either a Model, an Association or an object. undefined:undefined
+[2023-07-05T22:53:58.651Z] info Cannot read properties of undefined (reading 'dataValues') undefined:undefined
+[2023-07-05T23:10:14.198Z] info sessionUser is not defined undefined:undefined
+[2023-07-05T23:11:44.775Z] info sessionUser is not defined undefined:undefined
